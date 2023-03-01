@@ -97,7 +97,7 @@ export default function GameScreen() {
         onPress={() => selectedNameChoice(j)}
       >
         <Text style={styles.buttonText}>
-          {name}
+          {nameOptions[i]}
         </Text>
       </TouchableOpacity>
     );
